@@ -3,22 +3,19 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <section className="relative w-full min-h-screen flex items-center overflow-hidden">
+    <section className="
+      relative w-full min-h-screen flex items-center overflow-hidden
+      bg-[url('/Hero_Section.jpeg')] bg-cover bg-center bg-no-repeat
+    ">
       
-      {/* Background Image Wrapper */}
-      <div className="absolute inset-0 z-0 pointer-events-none">
-        <img 
-          src="/Hero_Section.jpeg" 
-          alt="Fiberglass Industrial Background" 
-          className="absolute inset-0 w-full h-full object-cover object-center z-0"
-        />
-        <div className="absolute inset-0 bg-white/40 dark:bg-black/30 z-10 transition-colors duration-300"></div>
-        {/* Optional subtle grid pattern overlay */}
-        <div className="absolute inset-0 z-20 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCI+CjxyZWN0IHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgZmlsbD0ibm9uZSIvPgo8cGF0aCBkPSJNMCAwTDAgNDBaIiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4wNykiIHN0cm9rZS13aWR0aD0iMSIvPgo8cGF0aCBkPSJNMCAwTDQwIDBaIiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4wNykiIHN0cm9rZS13aWR0aD0iMSIvPgo8L3N2Zz4=')] opacity-30"></div>
-      </div>
+      {/* Optional Overlay Div */}
+      <div className="absolute inset-0 bg-white/40 dark:bg-black/30 z-0 transition-colors duration-300"></div>
+      
+      {/* Optional subtle grid pattern overlay */}
+      <div className="absolute inset-0 z-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCI+CjxyZWN0IHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgZmlsbD0ibm9uZSIvPgo8cGF0aCBkPSJNMCAwTDAgNDBaIiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4wNykiIHN0cm9rZS13aWR0aD0iMSIvPgo8cGF0aCBkPSJNMCAwTDQwIDBaIiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4wNykiIHN0cm9rZS13aWR0aD0iMSIvPgo8L3N2Zz4=')] opacity-30 pointer-events-none"></div>
 
       {/* Content Wrapper */}
-      <div className="relative z-20 max-w-7xl mx-auto px-6 md:px-16 w-full py-20 mt-10">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-16 w-full py-20 mt-10">
         <motion.div 
           className="max-w-3xl flex flex-col items-start md:items-start text-left max-md:items-center max-md:text-center"
           initial="hidden"
