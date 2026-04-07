@@ -32,7 +32,7 @@ const Footer = () => {
               <img 
                 src="/logo.png" 
                 alt="Logo" 
-                className="w-35 h-35 object-contain"
+                className="w-40 h-20 object-contain"
                 onError={(e) => { e.target.src = '/public/logo.png'; }} // Fallback if user kept previous name
               />
             </div>
