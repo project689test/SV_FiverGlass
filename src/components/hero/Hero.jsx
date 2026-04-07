@@ -12,7 +12,7 @@ const Hero = () => {
           alt="Fiberglass Industrial Background" 
           className="absolute inset-0 w-full h-full object-cover object-center z-0"
         />
-        <div className="absolute inset-0 bg-white/70 dark:bg-[#060C1A]/80 z-10 transition-colors duration-300"></div>
+        <div className="absolute inset-0 bg-white/40 dark:bg-black/30 z-10 transition-colors duration-300"></div>
         {/* Optional subtle grid pattern overlay */}
         <div className="absolute inset-0 z-20 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCI+CjxyZWN0IHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgZmlsbD0ibm9uZSIvPgo8cGF0aCBkPSJNMCAwTDAgNDBaIiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4wNykiIHN0cm9rZS13aWR0aD0iMSIvPgo8cGF0aCBkPSJNMCAwTDQwIDBaIiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4wNykiIHN0cm9rZS13aWR0aD0iMSIvPgo8L3N2Zz4=')] opacity-30"></div>
       </div>
