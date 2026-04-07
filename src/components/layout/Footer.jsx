@@ -28,7 +28,7 @@ const Footer = () => {
           
           {/* COLUMN 1: Brand & Contact */}
           <div className="lg:col-span-2 pr-0 lg:pr-8">
-            <div className="flex items-center gap-3 mb-6">
+            <div className="flex items-center gap-3 mb-3">
               <img 
                 src="/logo.png" 
                 alt="Logo" 
@@ -37,7 +37,7 @@ const Footer = () => {
               />
             </div>
             
-            <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-6">
+            <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">
               India's trusted manufacturer of customized fiberglass products &mdash; industrial tanks to water park slides, sculptures to automobile parts.
             </p>
             
