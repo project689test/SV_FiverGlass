@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Clients = () => {
   const clients = [
-    { logo: "../public/appu ghar.png", name: "Appu Ghar" },
+    { logo: ".C:\Users\dharm\Desktop\SV_FiverGlass\client\public\appu ghar.png", name: "Appu Ghar" },
     { logo: "client\public\hindustan.jpeg", name: "Hindustan" },
     { logo: "/public/gip.jpeg", name: "GIP" },
     { logo: "/public/logo1.png", name: "Client Logo" },
