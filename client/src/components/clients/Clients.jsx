@@ -59,12 +59,12 @@ const Clients = () => {
               variants={itemVariants}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="w-full max-w-[200px] h-32 flex items-center justify-center p-6 bg-white dark:bg-[#0D1628] rounded-xl shadow-sm border border-gray-100 dark:border-gray-800/50 hover:shadow-md transition-all duration-300 ease-in-out cursor-pointer group relative"
+              className="w-full max-w-[200px] h-40 flex items-center justify-center p-6 bg-white dark:bg-[#0D1628] rounded-xl shadow-sm border border-gray-100 dark:border-gray-800/50 hover:shadow-md transition-all duration-300 ease-in-out cursor-pointer group relative"
             >
               <img 
                 src={item.logo} 
                 alt={`${item.name} logo`} 
-                className="w-full h-16 object-contain transition duration-300" 
+                className="w-full h-30 object-contain transition duration-300" 
               />
               
               {/* Optional Hover Glow element natively hidden */}
