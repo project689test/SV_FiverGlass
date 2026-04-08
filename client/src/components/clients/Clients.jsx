@@ -5,11 +5,11 @@ const Clients = () => {
   const clients = [
     { logo: "/appu_ghar.png", name: "Appu Ghar" },
     { logo: "/hindustan.jpeg", name: "Hindustan" },
-    { logo: "/public/gip.jpeg", name: "GIP" },
-    { logo: "/public/logo1.png", name: "Client Logo" },
-    { logo: "/public/pollucon.jpg", name: "Pollucon" },
-    { logo: "/public/swastik.jpg", name: "Swastik" },
-    { logo: "/public/wow.png", name: "Worlds of Wonder" }
+    { logo: "/gip.jpeg", name: "GIP" },
+    { logo: "/logo1.png", name: "Client Logo" },
+    { logo: "/pollucon.jpg", name: "Pollucon" },
+    { logo: "/swastik.jpg", name: "Swastik" },
+    { logo: "/wow.png", name: "Worlds of Wonder" }
   ];
 
   const containerVariants = {
