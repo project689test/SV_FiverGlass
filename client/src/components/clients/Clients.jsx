@@ -51,7 +51,7 @@ const Clients = () => {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
-          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 items-center justify-items-center"
+          className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 items-center justify-items-center"
         >
           {clients.map((item, index) => (
             <motion.div 

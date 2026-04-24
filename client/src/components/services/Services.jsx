@@ -7,37 +7,37 @@ const Services = () => {
     {
       title: "Industrial Tank FRP Lamination",
       desc: "Protect tanks from corrosion, chemical damage and leakage.",
-      image: "/services/tank.jpg",
+      image: "/tank.webp",
       icon: "🏭"
     },
     {
       title: "Automobile FRP Parts",
       desc: "Lightweight and high-strength body parts for vehicles.",
-      image: "/services/auto.jpg",
+      image: "/auto.jpg",
       icon: "🚗"
     },
     {
       title: "Water Park Slides",
       desc: "Durable and attractive fiberglass slides for water parks.",
-      image: "/services/slides.jpg",
+      image: "/slides.webp",
       icon: "🌊"
     },
     {
       title: "Theme Park Sculptures",
       desc: "Creative and weather-resistant fiberglass sculptures.",
-      image: "/services/sculpture.jpg",
+      image: "/Sculpture.jpg",
       icon: "🎢"
     },
     {
       title: "FRP Sheets & Canopies",
       desc: "High-quality roofing sheets and custom canopies.",
-      image: "/services/sheets.jpg",
+      image: "/sheets.webp",
       icon: "🏠"
     },
     {
       title: "Custom FRP Molds",
       desc: "Precision molding for exact product specifications.",
-      image: "/services/molds.jpg",
+      image: "/molds.jpg",
       icon: "📐"
     }
   ];

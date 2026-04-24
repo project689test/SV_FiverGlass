@@ -6,12 +6,12 @@ const Products = () => {
   const [showAll, setShowAll] = useState(false);
 
   const products = [
-    { title: "FRP Storage Tanks", image: "/products/tank.jpg" },
-    { title: "Custom Canopies", image: "/products/canopies.jpg" },
-    { title: "Park Benches & Dustbins", image: "/products/benches.jpg" },
-    { title: "Planters & Pots", image: "/products/planters.jpg" },
-    { title: "FRP Gratings", image: "/products/gratings.jpg" },
-    { title: "Ducting Systems", image: "/products/duct.jpg" },
+    { title: "FRP Storage Tanks", image: "/tank.webp" },
+    { title: "Custom Canopies", image: "/molds.jpg" },
+    { title: "Park Benches & Dustbins", image: "/banches.jpg" },
+    { title: "Planters & Pots", image: "/planters.jpg" },
+    { title: "FRP Gratings", image: "/gratings.jpg" },
+    { title: "Ducting Systems", image: "/duct.jpg" },
     { title: "FRP Doors", image: "/products/doors.jpg" },
     { title: "FRP Sheets", image: "/products/sheets.jpg" },
     { title: "FRP Louvers", image: "/products/louvers.jpg" }
