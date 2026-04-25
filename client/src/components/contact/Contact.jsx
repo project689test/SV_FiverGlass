@@ -129,12 +129,12 @@ const Contact = () => {
               </div>
             )}
 
-            <form action="https://formsubmit.co/dharmu6669777@gmail.com" method="POST" onsubmit={handleSubmit} className="space-y-6" >
+            <form action="https://formsubmit.co/dharmu6669777@gmail.com" method="POST"  className="space-y-6" >
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_next" value="https://yourwebsite.com/#contact" />
-  <input type="hidden" name="_subject" value="New Contact Message" />
-  <input type="hidden" name="_template" value="table" />
-  <input type="text" name="_honey" style={{ display: "none" }} />
+            <input type="hidden" name="_subject" value="New Contact Message" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="text" name="_honey" style={{ display: "none" }} />
 
               <div>
                 <label className="block text-[13px] font-bold text-gray-600 dark:text-gray-400 mb-2">Full Name</label>
