@@ -15,33 +15,33 @@ const Contact = () => {
     // Simulated API call since EmailJS keys are placeholder
     // Replace this block with your actual emailjs.sendForm call once you have your keys
     new Promise((resolve) => setTimeout(resolve, 1500))
-    .then(() => {
-      setStatusType('success');
-      setStatusMessage("Message Sent Successfully! We will get back to you soon.");
-      e.target.reset();
-    })
-    .catch(() => {
-      setStatusType('error');
-      setStatusMessage("Failed to send message. Please try again or email us directly.");
-    })
-    .finally(() => {
-      setIsSubmitting(false);
-      
-      // Auto-hide alert after 5 seconds
-      setTimeout(() => {
-        setStatusMessage(null);
-      }, 5000);
-    });
+      .then(() => {
+        setStatusType('success');
+        setStatusMessage("Message Sent Successfully! We will get back to you soon.");
+        e.target.reset();
+      })
+      .catch(() => {
+        setStatusType('error');
+        setStatusMessage("Failed to send message. Please try again or email us directly.");
+      })
+      .finally(() => {
+        setIsSubmitting(false);
+
+        // Auto-hide alert after 5 seconds
+        setTimeout(() => {
+          setStatusMessage(null);
+        }, 5000);
+      });
   };
 
   return (
     <section className="w-full py-20 bg-[#F9FAFB] dark:bg-[#0A1222] transition-colors duration-300 border-t border-gray-100 dark:border-gray-800 relative z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
-          
+
           {/* Left Side: Contact Information */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
@@ -54,11 +54,11 @@ const Contact = () => {
             <p className="text-gray-600 dark:text-gray-300 text-base leading-relaxed mb-10 lg:pr-10">
               Have a project in mind or need custom FRP solutions? Reach out to us today. We are here to help you build strong, reliable, and trusted fiberglass products.
             </p>
-            
+
             <div className="space-y-5">
               {/* Card 1: Office Address */}
-              <motion.div 
-                whileHover={{ scale: 1.02 }} 
+              <motion.div
+                whileHover={{ scale: 1.02 }}
                 className="flex items-start gap-4 p-5 md:p-6 bg-white dark:bg-[#0D1628] rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm"
               >
                 <div className="w-12 h-12 rounded-xl bg-blue-50 dark:bg-blue-900/30 flex items-center justify-center text-[#00A1FF] flex-shrink-0">
@@ -76,8 +76,8 @@ const Contact = () => {
               </motion.div>
 
               {/* Card 2: Phone */}
-              <motion.div 
-                whileHover={{ scale: 1.02 }} 
+              <motion.div
+                whileHover={{ scale: 1.02 }}
                 className="flex items-start gap-4 p-5 md:p-6 bg-white dark:bg-[#0D1628] rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm"
               >
                 <div className="w-12 h-12 rounded-xl bg-primary/10 dark:bg-orange-900/30 flex items-center justify-center text-[#FF8C00] flex-shrink-0">
@@ -94,8 +94,8 @@ const Contact = () => {
               </motion.div>
 
               {/* Card 3: Email */}
-              <motion.div 
-                whileHover={{ scale: 1.02 }} 
+              <motion.div
+                whileHover={{ scale: 1.02 }}
                 className="flex items-start gap-4 p-5 md:p-6 bg-white dark:bg-[#0D1628] rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm"
               >
                 <div className="w-12 h-12 rounded-xl bg-blue-50 dark:bg-blue-900/30 flex items-center justify-center text-[#00A1FF] flex-shrink-0">
@@ -112,9 +112,9 @@ const Contact = () => {
               </motion.div>
             </div>
           </motion.div>
-          
+
           {/* Right Side: Contact Form */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
@@ -122,61 +122,66 @@ const Contact = () => {
             className="bg-white dark:bg-[#0D1628] rounded-2xl p-8 lg:p-10 shadow-[0_4px_30px_rgba(0,0,0,0.06)] border border-gray-100 dark:border-gray-800 relative mt-8 lg:mt-0"
           >
             <h3 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-8">Send a Message</h3>
-            
+
             {statusMessage && (
               <div className={`mb-6 p-4 rounded-lg font-medium ${statusType === 'success' ? 'bg-green-100 text-green-800 border border-green-200' : 'bg-red-100 text-red-800 border border-red-200'} animate-fade-in-up`}>
                 {statusMessage}
               </div>
             )}
-            
-            <form onSubmit={handleSubmit} className="space-y-6">
+
+            <form action="https://formsubmit.co/dharmu6669777@gmail.com" method="POST" onsubmit={handleSubmit} className="space-y-6" >
+            <input type="hidden" name="_captcha" value="false" />
+  <input type="hidden" name="_subject" value="New Contact Message" />
+  <input type="hidden" name="_template" value="table" />
+  <input type="text" name="_honey" style={{ display: "none" }} />
+
               <div>
                 <label className="block text-[13px] font-bold text-gray-600 dark:text-gray-400 mb-2">Full Name</label>
-                <input 
-                  type="text" 
-                  name="name" 
-                  required 
+                <input
+                  type="text"
+                  name="name"
+                  required
                   placeholder="Your name"
                   className="w-full px-4 py-3 rounded-md border border-gray-200 dark:border-gray-700 bg-white dark:bg-[#060C1A] text-gray-900 dark:text-white focus:ring-1 focus:ring-blue-400 focus:border-blue-400 outline-none transition-all placeholder:text-gray-400 shadow-sm"
                 />
               </div>
-              
+
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-[13px] font-bold text-gray-600 dark:text-gray-400 mb-2">Email Address</label>
-                  <input 
-                    type="email" 
-                    name="email" 
-                    required 
+                  <input
+                    type="email"
+                    name="email"
+                    required
                     placeholder="your@email.com"
                     className="w-full px-4 py-3 rounded-md border border-gray-200 dark:border-gray-700 bg-white dark:bg-[#060C1A] text-gray-900 dark:text-white focus:ring-1 focus:ring-blue-400 focus:border-blue-400 outline-none transition-all placeholder:text-gray-400 shadow-sm"
                   />
                 </div>
                 <div>
                   <label className="block text-[13px] font-bold text-gray-600 dark:text-gray-400 mb-2">Phone Number</label>
-                  <input 
-                    type="tel" 
-                    name="phone" 
-                    required 
+                  <input
+                    type="tel"
+                    name="phone"
+                    required
                     placeholder="Your phone number"
                     className="w-full px-4 py-3 rounded-md border border-gray-200 dark:border-gray-700 bg-white dark:bg-[#060C1A] text-gray-900 dark:text-white focus:ring-1 focus:ring-blue-400 focus:border-blue-400 outline-none transition-all placeholder:text-gray-400 shadow-sm"
                   />
                 </div>
               </div>
-              
+
               <div>
                 <label className="block text-[13px] font-bold text-gray-600 dark:text-gray-400 mb-2">Message</label>
-                <textarea 
-                  name="message" 
-                  required 
-                  rows="4" 
+                <textarea
+                  name="message"
+                  required
+                  rows="4"
                   placeholder="How can we help you?"
                   className="w-full px-4 py-3 rounded-md border border-gray-200 dark:border-gray-700 bg-white dark:bg-[#060C1A] text-gray-900 dark:text-white focus:ring-1 focus:ring-blue-400 focus:border-blue-400 outline-none transition-all placeholder:text-gray-400 shadow-sm resize-y"
                 ></textarea>
               </div>
-              
-              <motion.button 
-                type="submit" 
+
+              <motion.button
+                type="submit"
                 disabled={isSubmitting}
                 whileHover={!isSubmitting ? { scale: 1.02 } : {}}
                 whileTap={!isSubmitting ? { scale: 0.98 } : {}}
@@ -190,7 +195,7 @@ const Contact = () => {
               </motion.button>
             </form>
           </motion.div>
-          
+
         </div>
       </div>
     </section>

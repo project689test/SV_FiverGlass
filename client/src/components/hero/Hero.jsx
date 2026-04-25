@@ -9,7 +9,7 @@ const Hero = () => {
     ">
       
       {/* Optional Overlay Div */}
-      <div className="absolute inset-0 bg-white/40 dark:bg-black/30 z-0 transition-colors duration-300"></div>
+      <div className="absolute inset-0  dark:bg-black/40 z-0 transition-colors duration-300"></div>
       
       {/* Optional subtle grid pattern overlay */}
       <div className="absolute inset-0 z-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCI+CjxyZWN0IHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgZmlsbD0ibm9uZSIvPgo8cGF0aCBkPSJNMCAwTDAgNDBaIiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4wNykiIHN0cm9rZS13aWR0aD0iMSIvPgo8cGF0aCBkPSJNMCAwTDQwIDBaIiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4wNykiIHN0cm9rZS13aWR0aD0iMSIvPgo8L3N2Zz4=')] opacity-30 pointer-events-none"></div>
@@ -35,7 +35,7 @@ const Hero = () => {
               hidden: { opacity: 0 },
               show: { opacity: 1, transition: { duration: 0.6 } }
             }}
-            className="flex items-center gap-2 px-4 py-1.5 rounded-full border border-blue-500 bg-blue-100/90 dark:bg-blue-900/40 mb-6"
+            className="flex items-center gap-2 px-4 py-1.5 rounded-full border border-blue-500 bg-blue-400/40 dark:bg-blue-900/40 mb-6"
           >
             <span className="w-2 h-2 rounded-full bg-blue-600 dark:bg-blue-400"></span>
             <span className="text-xs sm:text-sm font-semibold text-blue-800 dark:text-blue-300 tracking-wide">
