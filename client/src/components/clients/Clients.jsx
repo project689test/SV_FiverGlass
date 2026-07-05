@@ -47,7 +47,7 @@ const Clients = () => {
             {clients.map((item, index) => (
               <div
                 key={`first-${index}`}
-                className="w-[200px] shrink-0 h-40 flex items-center justify-center p-6 bg-white dark:bg-[#0D1628] rounded-xl shadow-sm border border-gray-100 dark:border-gray-800/50 hover:shadow-md transition-all duration-300 ease-in-out cursor-pointer group relative hover:scale-105 active:scale-95"
+                className="w-[200px] shrink-0 h-40 flex items-center justify-center p-6 bg-white dark:bg-[#0D1628] rounded-xl shadow-sm border border-gray-100 dark:border-gray-800/50 hover:shadow-md transition-all duration-300 ease-in-out cursor-default group relative hover:scale-105"
               >
                 <img
                   src={item.logo}
@@ -64,7 +64,7 @@ const Clients = () => {
             {clients.map((item, index) => (
               <div
                 key={`second-${index}`}
-                className="w-[200px] shrink-0 h-40 flex items-center justify-center p-6 bg-white dark:bg-[#0D1628] rounded-xl shadow-sm border border-gray-100 dark:border-gray-800/50 hover:shadow-md transition-all duration-300 ease-in-out cursor-pointer group relative hover:scale-105 active:scale-95"
+                className="w-[200px] shrink-0 h-40 flex items-center justify-center p-6 bg-white dark:bg-[#0D1628] rounded-xl shadow-sm border border-gray-100 dark:border-gray-800/50 hover:shadow-md transition-all duration-300 ease-in-out cursor-default group relative hover:scale-105"
               >
                 <img
                   src={item.logo}
