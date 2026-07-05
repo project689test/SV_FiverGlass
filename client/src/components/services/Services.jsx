@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Factory, Car, Waves, Sparkles, Layers, Ruler, ChevronDown, ChevronUp } from 'lucide-react';
+import { Factory, Car, Waves, Sparkles, Layers, ChevronDown, ChevronUp } from 'lucide-react';
 
 // Unified Service Card Component
 const ServiceCard = ({ title, desc, image, icon: Icon }) => {
@@ -76,7 +76,7 @@ const Services = () => {
   const [showAll, setShowAll] = useState(false);
 
   const items = [
-    // Services (First 6 items)
+    // Services (First 5 items)
     {
       type: "service",
       title: "Industrial Tank FRP Lamination",
@@ -112,23 +112,14 @@ const Services = () => {
       image: "/sheets.webp",
       icon: Layers
     },
-    {
-      type: "service",
-      title: "Custom FRP Molds",
-      desc: "Precision molding for exact product specifications.",
-      image: "/molds.jpg",
-      icon: Ruler
-    },
-    // Products (Remaining 6 items)
-    { type: "product", title: "FRP Storage Tanks", image: "/tank.webp" },
+    // Products (Remaining 4 items)
     { type: "product", title: "Custom Canopies", image: "/molds.jpg" },
     { type: "product", title: "Park Benches & Dustbins", image: "/banches.jpg" },
     { type: "product", title: "Planters & Pots", image: "/planters.jpg" },
-    { type: "product", title: "FRP Gratings", image: "/gratings.jpg" },
-    { type: "product", title: "Ducting Systems", image: "/duct.jpg" }
+    { type: "product", title: "FRP Gratings", image: "/gratings.jpg" }
   ];
 
-  const displayedItems = showAll ? items : items.slice(0, 6);
+  const displayedItems = showAll ? items : items.slice(0, 5);
 
   return (
     <section className="w-full py-20 bg-gray-50 dark:bg-[#0A1222] transition-colors duration-300">
