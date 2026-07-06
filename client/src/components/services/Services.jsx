@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Factory, Car, Waves, Sparkles, Layers, ChevronDown, ChevronUp } from 'lucide-react';
+import { Factory, Car, Waves, Sparkles, Layers, ChevronDown, ChevronUp, Umbrella, TreePine, Flower2, Grid } from 'lucide-react';
 
 // Unified Service Card Component
 const ServiceCard = ({ title, desc, image, icon: Icon }) => {
@@ -107,19 +107,43 @@ const Services = () => {
     },
     {
       type: "service",
-      title: "FRP Sheets & Canopies",
+      title: "FRP Sheets",
       desc: "High-quality roofing sheets and custom canopies.",
       image: "/sheets.webp",
       icon: Layers
     },
     // Products (Remaining 4 items)
-    { type: "product", title: "Custom Canopies", image: "/molds.jpg" },
-    { type: "product", title: "Park Benches & Dustbins", image: "/banches.jpg" },
-    { type: "product", title: "Planters & Pots", image: "/planters.jpg" },
-    { type: "product", title: "FRP Gratings", image: "/gratings.jpg" }
+    {
+      type: "service",
+      title: "Custom Canopies",
+      desc: "Beautifully styled, weather-resistant fiberglass canopies for residential and commercial spaces.",
+      image: "/molds.jpg",
+      icon: Umbrella
+    },
+    {
+      type: "service",
+      title: "Park Benches & Dustbins",
+      desc: "Robust, maintenance-free FRP public benches and eco-friendly dustbins.",
+      image: "/banches.jpg",
+      icon: TreePine
+    },
+    {
+      type: "service",
+      title: "Planters & Pots",
+      desc: "Premium decorative fiberglass pots and planters for interior and exterior landscaping.",
+      image: "/planters.jpg",
+      icon: Flower2
+    },
+    {
+      type: "service",
+      title: "FRP Gratings",
+      desc: "High-load capacity, chemical-resistant, and slip-proof fiberglass floor gratings.",
+      image: "/gratings.jpg",
+      icon: Grid
+    }
   ];
 
-  const displayedItems = showAll ? items : items.slice(0, 5);
+  const displayedItems = showAll ? items : items.slice(0, 6);
 
   return (
     <section className="w-full py-20 bg-gray-50 dark:bg-[#0A1222] transition-colors duration-300">
@@ -181,7 +205,7 @@ const Services = () => {
               </>
             ) : (
               <>
-                <span>View More Products</span>
+                <span>View More</span>
                 <ChevronDown className="w-5 h-5" />
               </>
             )}

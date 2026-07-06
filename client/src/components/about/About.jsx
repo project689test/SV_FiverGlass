@@ -62,12 +62,15 @@ const About = () => {
             viewport={{ once: true }}
             className="relative h-[300px] lg:h-[650px] w-full rounded-2xl overflow-hidden shadow-2xl group mt-8 lg:mt-0"
           >
-            <video
+            {/* <video
               src="/about-video1.mp4"
               autoPlay
               muted
               loop
-              playsInline
+              playsInline */}
+            <img
+              src="/about.jpg"
+              alt="About Sunny Verma Fiber Glass"
               className="absolute w-full h-full object-fill object-center transform group-hover:scale-105 transition duration-500"
             />
 
