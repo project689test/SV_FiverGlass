@@ -69,7 +69,7 @@ const Contact = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="text-[17px] font-bold text-gray-900 dark:text-white mb-1">Coprate Office</h4>
+                  <h4 className="text-[17px] font-bold text-gray-900 dark:text-white mb-1">Corporate Office</h4>
                   <p className="text-gray-600 dark:text-gray-400 text-[15px] leading-relaxed">
                     B-79, Ground Floor, Block-B, Sector-88, Noida UP: 201305
                   </p>
