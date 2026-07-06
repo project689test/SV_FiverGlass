@@ -54,11 +54,11 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-primary flex-shrink-0" />
-                <a href="mailto:info@vermafiber.com" className="hover:text-primary transition-colors">info@vermafiber.com</a>
+                <a href="mailto:info@vermafibers.com" className="hover:text-primary transition-colors">info@vermafibers.com</a>
               </li>
               <li className="flex items-center gap-3">
                 <Globe className="w-5 h-5 text-primary flex-shrink-0" />
-                <a href="http://www.vermafiber.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">www.vermafiber.com</a>
+                <a href="http://www.vermafibers.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">www.vermafibers.com</a>
               </li>
             </ul>
           </div>
@@ -120,8 +120,8 @@ const Footer = () => {
           </p>
           <p className="text-gray-500 dark:text-gray-500 text-sm font-medium flex items-center gap-1.5">
             Made with <span className="text-red-500 mx-0.5 text-lg">❤️</span> |
-            <a href="mailto:info@vermafiber.com" className="hover:text-primary ml-1 transition-colors">
-              info@vermafiber.com
+            <a href="mailto:info@vermafibers.com" className="hover:text-primary ml-1 transition-colors">
+              info@vermafibers.com
             </a>
           </p>
         </div>

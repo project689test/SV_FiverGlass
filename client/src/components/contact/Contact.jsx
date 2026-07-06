@@ -69,9 +69,13 @@ const Contact = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="text-[17px] font-bold text-gray-900 dark:text-white mb-2">Office Address</h4>
+                  <h4 className="text-[17px] font-bold text-gray-900 dark:text-white mb-1">Coprate Office</h4>
                   <p className="text-gray-600 dark:text-gray-400 text-[15px] leading-relaxed">
-                    B-79, Ground Floor, Block-B,<br />Sector-88, Noida UP: 201305
+                    B-79, Ground Floor, Block-B, Sector-88, Noida UP: 201305
+                  </p>
+                  <h4 className="text-[17px] font-bold text-gray-900 dark:text-white mt-2 mb-1">Registered Address</h4>
+                  <p className="text-gray-600 dark:text-gray-400 text-[15px] leading-relaxed">
+                    RC 188 Block -C, Azad Vihar, Khora Colony, Uttar Pradesh 201020
                   </p>
                 </div>
               </motion.div>
@@ -107,7 +111,7 @@ const Contact = () => {
                 <div>
                   <h4 className="text-[17px] font-bold text-gray-900 dark:text-white mb-2">Email Address</h4>
                   <a href="mailto:info@vermafiber.com" className="text-gray-600 dark:text-gray-400 hover:text-blue-500 transition-colors text-[15px]">
-                    info@vermafiber.com
+                    info@vermafibers.com
                   </a>
                 </div>
               </motion.div>
@@ -130,7 +134,7 @@ const Contact = () => {
               </div>
             )}
 
-            <form action="https://formsubmit.co/dharmu6669777@gmail.com" method="POST" className="space-y-6">
+            <form action="https://formsubmit.co/info@vermafibers.com" method="POST" className="space-y-6">
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_subject" value="New Contact Message" />
               <input type="hidden" name="_template" value="table" />
