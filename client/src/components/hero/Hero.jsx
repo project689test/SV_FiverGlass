@@ -53,7 +53,7 @@ const Hero = () => {
             className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-extrabold leading-tight mb-6 uppercase"
           >
             <span className="text-white block mb-2">Strong, Reliable &</span>
-            <span className="bg-gradient-to-r from-secondary to-secondary bg-clip-text text-transparent pb-2">Trusted FRP Solutions</span>
+            <span className="bg-gradient-to-r from-secondary to-secondary bg-clip-text text-transparent pb-2">FRP Products Manufacturer</span>
           </motion.h1>
 
           {/* Description */}
@@ -64,7 +64,7 @@ const Hero = () => {
             }}
             className="text-base sm:text-lg md:text-xl text-white mb-10 max-w-2xl leading-relaxed"
           >
-            Over 20+ years of excellence in high-quality FRP manufacturing, custom molds, and industrial solutions.
+            Over 20+ years of excellence as a premier Fiberglass and FRP Manufacturer in India. Specializing in custom fiberglass products, industrial FRP products, chemical lamination, and tailored fabrication solutions.
           </motion.p>
 
           {/* Buttons */}

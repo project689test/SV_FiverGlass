@@ -12,7 +12,11 @@ const ServiceCard = ({ title, desc, image, icon: Icon }) => {
         {/* Image */}
         <img
           src={image}
-          alt={title}
+          alt={`${title} - Sunny Verma Fiberglass`}
+          title={`${title} - Fiberglass Fabrication India`}
+          loading="lazy"
+          width={400}
+          height={256}
           className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500 ease-out"
         />
 
@@ -51,7 +55,11 @@ const ProductCard = ({ title, image }) => {
       <div className="w-full h-56 sm:h-64 overflow-hidden relative">
         <img
           src={image}
-          alt={title}
+          alt={`${title} - Sunny Verma Fiberglass`}
+          title={`${title} - Custom Fiberglass Products`}
+          loading="lazy"
+          width={400}
+          height={256}
           className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700 ease-in-out"
         />
         {/* Subtle overlay for depth */}
@@ -79,65 +87,65 @@ const Services = () => {
     // Services (First 5 items)
     {
       type: "service",
-      title: "Industrial Tank FRP Lamination",
-      desc: "Protect tanks from corrosion, chemical damage and leakage.",
+      title: "Industrial FRP Tank Manufacturer & Lamination",
+      desc: "Protect industrial tanks from chemical leaks, corrosion, and wear with premium chemical-resistant lamination and fiberglass fabrication.",
       image: "/tank.webp",
       icon: Factory
     },
     {
       type: "service",
-      title: "Automobile FRP Parts",
-      desc: "Lightweight and high-strength body parts for vehicles.",
+      title: "Custom Automobile FRP Parts",
+      desc: "High-strength, lightweight fiberglass bumpers, panels, and custom vehicle body parts manufactured for commercial and private transport.",
       image: "/auto.jpg",
       icon: Car
     },
     {
       type: "service",
-      title: "Water Park Slides",
-      desc: "Durable and attractive fiberglass slides for water parks.",
+      title: "Fiberglass Water Park Slides",
+      desc: "Highly durable, colorfast, and weather-resistant custom fiberglass slides designed for amusement and theme parks.",
       image: "/slides.webp",
       icon: Waves
     },
     {
       type: "service",
-      title: "Theme Park Sculptures",
-      desc: "Creative and weather-resistant fiberglass sculptures.",
+      title: "Decorative Fiberglass Sculptures",
+      desc: "Creative, weather-resistant, and structural fiberglass models and decorative sculptures engineered for museums and theme parks.",
       image: "/Sculpture.jpg",
       icon: Sparkles
     },
     {
       type: "service",
-      title: "FRP Sheets",
-      desc: "High-quality roofing sheets and custom canopies.",
+      title: "FRP Sheets & Roofing Solutions",
+      desc: "UV-protected, high-durability roofing sheets and structural canopies designed to withstand extreme Indian weather elements.",
       image: "/sheets.webp",
       icon: Layers
     },
     // Products (Remaining 4 items)
     {
       type: "service",
-      title: "Custom Canopies",
-      desc: "Beautifully styled, weather-resistant fiberglass canopies for residential and commercial spaces.",
+      title: "Custom FRP Canopies & Domes",
+      desc: "Beautifully styled, weather-resistant entrance canopies and architectural domes fabricated to fit residential and commercial spaces.",
       image: "/molds.jpg",
       icon: Umbrella
     },
     {
       type: "service",
-      title: "Park Benches & Dustbins",
-      desc: "Robust, maintenance-free FRP public benches and eco-friendly dustbins.",
+      title: "FRP Public Benches & Domes",
+      desc: "Maintenance-free, rust-resistant, and heavy-duty fiberglass park benches and trash bins for corporate and public settings.",
       image: "/banches.jpg",
       icon: TreePine
     },
     {
       type: "service",
-      title: "Planters & Pots",
-      desc: "Premium decorative fiberglass pots and planters for interior and exterior landscaping.",
+      title: "Decorative Fiberglass Planters",
+      desc: "Premium, lightweight, and corrosion-free fiberglass planters and pots designed for high-end interior landscaping and gardens.",
       image: "/planters.jpg",
       icon: Flower2
     },
     {
       type: "service",
-      title: "FRP Gratings",
-      desc: "High-load capacity, chemical-resistant, and slip-proof fiberglass floor gratings.",
+      title: "Industrial FRP Gratings",
+      desc: "Slip-resistant, chemical-proof, and high-load capacity fiberglass floor gratings and walkway covers designed for safety.",
       image: "/gratings.jpg",
       icon: Grid
     }

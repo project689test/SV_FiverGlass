@@ -30,9 +30,9 @@ const TestimonialCard = ({ name, company, review, rating }) => {
 
       {/* Footer Info */}
       <div className="relative z-10 mt-auto border-t border-gray-100 dark:border-gray-800 pt-4 flex flex-col">
-        <h4 className="text-lg font-bold text-gray-900 dark:text-gray-100 uppercase tracking-wide group-hover:text-primary transition-colors">
+        <h3 className="text-lg font-bold text-gray-900 dark:text-gray-100 uppercase tracking-wide group-hover:text-primary transition-colors">
           {name}
-        </h4>
+        </h3>
         <span className="text-sm text-gray-500 dark:text-gray-400 font-medium">
           {company}
         </span>

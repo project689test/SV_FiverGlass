@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   const checkList = [
-    "Premium Quality Materials",
-    "On-Time Project Delivery",
-    "Expert Technical Team",
-    "Custom Fabrication Solutions"
+    "Premium Quality FRP Materials",
+    "On-Time Custom Fabrication Delivery",
+    "Expert Technical Fiberglass Engineering Team",
+    "Tailored Industrial FRP Solutions"
   ];
 
   return (
@@ -28,7 +28,7 @@ const About = () => {
             </h2>
 
             <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed mb-8">
-              Based in Noida, Sunny Verma Fiber Glass has established itself as a trusted name in the industry with over 20 years of experience. We specialize in high-quality Fiberglass Reinforced Plastic (FRP) solutions.
+              Based in Noida, Delhi NCR, Sunny Verma Fiberglass (FRP) Products Manufacturer has established itself as an industry leader with over 20 years of experience. We specialize in custom fiberglass products and high-quality Fiberglass Reinforced Plastic (FRP) fabrication services across Punjab, Haryana, Delhi, Chandigarh, and all of India.
             </p>
 
             <ul className="space-y-4 mb-10">
@@ -70,7 +70,11 @@ const About = () => {
               playsInline */}
             <img
               src="/about.jpg"
-              alt="About Sunny Verma Fiber Glass"
+              alt="About Sunny Verma Fiberglass - Premium FRP Manufacturer in India"
+              title="Sunny Verma Fiberglass Manufacturing Facility"
+              loading="lazy"
+              width={600}
+              height={650}
               className="absolute w-full h-full object-cover object-top transform group-hover:scale-105 transition duration-500"
             />
 

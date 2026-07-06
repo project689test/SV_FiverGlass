@@ -14,7 +14,7 @@ const Footer = () => {
 
   const quickLinks = [
     { name: "Who We Are", path: "#about" },
-    { name: "Services & Products", path: "#services & Products" },
+    { name: "Services & Products", path: "#services" },
     { name: "Clients", path: "#clients" },
     { name: "Contact Us", path: "#contact" }
   ];
@@ -31,14 +31,17 @@ const Footer = () => {
             <div className="flex items-center gap-3 mb-3">
               <img
                 src="/logo.png"
-                alt="Logo"
+                alt="Sunny Verma Fiberglass Logo"
+                title="Sunny Verma Fiberglass"
+                width={160}
+                height={60}
                 className="w-40 h-15 object-contain"
                 onError={(e) => { e.target.src = '/public/logo.png'; }} // Fallback if user kept previous name
               />
             </div>
 
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">
-              India's trusted manufacturer of customized fiberglass products &mdash; industrial tanks to water park slides, sculptures to automobile parts.
+              Sunny Verma Fiberglass is India's leading FRP products manufacturer, specializing in premium custom fiberglass products. From industrial FRP tanks and chemical-resistant laminations to water park slides, park benches, planters, canopies, domes, and custom molds, we deliver durable fiberglass fabrication solutions nationwide.
             </p>
 
             <ul className="space-y-4 text-sm md:text-base text-gray-600 dark:text-gray-400 font-medium">

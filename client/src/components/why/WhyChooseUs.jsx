@@ -5,23 +5,23 @@ import { Award, Settings, ShieldCheck, Clock } from 'lucide-react';
 const WhyChooseUs = () => {
   const features = [
     {
-      title: "Expert in All Fiberglass",
-      desc: "End-to-end solutions with precision craftsmanship.",
+      title: "Expert Fiberglass Fabrication",
+      desc: "End-to-end custom fiberglass products designed with engineering precision.",
       icon: Award
     },
     {
-      title: "Custom Manufacturing",
-      desc: "Tailored to your exact industrial or commercial needs.",
+      title: "Custom FRP Solutions",
+      desc: "Tailored manufacturing of custom fiberglass products to suit your industrial specifications.",
       icon: Settings
     },
     {
-      title: "Durable & Weatherproof",
-      desc: "High-grade raw materials ensuring lifelong performance.",
+      title: "Weatherproof FRP Products",
+      desc: "High-grade resins and glass fibers ensuring lifelong heavy-duty performance.",
       icon: ShieldCheck
     },
     {
-      title: "Timely Delivery",
-      desc: "Committed to delivering projects exactly on schedule.",
+      title: "Efficient Project Timelines",
+      desc: "Committed to manufacturing and delivering custom fiberglass products on schedule across India.",
       icon: Clock
     }
   ];
@@ -63,7 +63,7 @@ const WhyChooseUs = () => {
             </motion.h2>
 
             <motion.p variants={itemVariants} className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed mb-10 max-w-2xl">
-              With 20+ years of fiberglass expertise, we deliver unmatched quality and satisfaction across every project.
+              As a top-rated Fiberglass Manufacturer in Punjab, Haryana, Delhi NCR, and Chandigarh, our 20+ years of engineering experience ensure the highest quality standards for all your industrial and commercial requirements.
             </motion.p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-10">
@@ -78,9 +78,9 @@ const WhyChooseUs = () => {
                     <feature.icon className="w-6 h-6" />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2 group-hover:text-primary transition-colors">
+                    <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2 group-hover:text-primary transition-colors">
                       {feature.title}
-                    </h4>
+                    </h3>
                     <p className="text-gray-600 dark:text-gray-400 leading-relaxed font-medium">
                       {feature.desc}
                     </p>

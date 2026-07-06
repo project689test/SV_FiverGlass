@@ -69,11 +69,11 @@ const Contact = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="text-[17px] font-bold text-gray-900 dark:text-white mb-1">Corporate Office</h4>
+                  <h3 className="text-[17px] font-bold text-gray-900 dark:text-white mb-1">Corporate Office</h3>
                   <p className="text-gray-600 dark:text-gray-400 text-[15px] leading-relaxed">
                     B-79, Ground Floor, Block-B, Sector-88, Noida UP: 201305
                   </p>
-                  <h4 className="text-[17px] font-bold text-gray-900 dark:text-white mt-2 mb-1">Registered Address</h4>
+                  <h3 className="text-[17px] font-bold text-gray-900 dark:text-white mt-2 mb-1">Registered Address</h3>
                   <p className="text-gray-600 dark:text-gray-400 text-[15px] leading-relaxed">
                     RC 188 Block -C, Azad Vihar, Khora Colony, Uttar Pradesh 201020
                   </p>
@@ -91,7 +91,7 @@ const Contact = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="text-[17px] font-bold text-gray-900 dark:text-white mb-2">Phone Number</h4>
+                  <h3 className="text-[17px] font-bold text-gray-900 dark:text-white mb-2">Phone Number</h3>
                   <p className="text-gray-600 dark:text-gray-400 text-[15px] leading-relaxed">
                     +91 9899587246
                   </p>
@@ -109,7 +109,7 @@ const Contact = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="text-[17px] font-bold text-gray-900 dark:text-white mb-2">Email Address</h4>
+                  <h3 className="text-[17px] font-bold text-gray-900 dark:text-white mb-2">Email Address</h3>
                   <a href="mailto:info@vermafiber.com" className="text-gray-600 dark:text-gray-400 hover:text-blue-500 transition-colors text-[15px]">
                     info@vermafibers.com
                   </a>
@@ -144,8 +144,9 @@ const Contact = () => {
 
 
               <div>
-                <label className="block text-[13px] font-bold text-gray-600 dark:text-gray-400 mb-2">Full Name</label>
+                <label htmlFor="full-name" className="block text-[13px] font-bold text-gray-600 dark:text-gray-400 mb-2">Full Name</label>
                 <input
+                  id="full-name"
                   type="text"
                   name="name"
                   required
@@ -156,8 +157,9 @@ const Contact = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label className="block text-[13px] font-bold text-gray-600 dark:text-gray-400 mb-2">Email Address</label>
+                  <label htmlFor="email" className="block text-[13px] font-bold text-gray-600 dark:text-gray-400 mb-2">Email Address</label>
                   <input
+                    id="email"
                     type="email"
                     name="email"
                     required
@@ -166,8 +168,9 @@ const Contact = () => {
                   />
                 </div>
                 <div>
-                  <label className="block text-[13px] font-bold text-gray-600 dark:text-gray-400 mb-2">Phone Number</label>
+                  <label htmlFor="phone" className="block text-[13px] font-bold text-gray-600 dark:text-gray-400 mb-2">Phone Number</label>
                   <input
+                    id="phone"
                     type="tel"
                     name="phone"
                     required
@@ -178,8 +181,9 @@ const Contact = () => {
               </div>
 
               <div>
-                <label className="block text-[13px] font-bold text-gray-600 dark:text-gray-400 mb-2">Message</label>
+                <label htmlFor="message" className="block text-[13px] font-bold text-gray-600 dark:text-gray-400 mb-2">Message</label>
                 <textarea
+                  id="message"
                   name="message"
                   required
                   rows="4"

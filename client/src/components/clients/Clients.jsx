@@ -51,7 +51,11 @@ const Clients = () => {
               >
                 <img
                   src={item.logo}
-                  alt={`${item.name} logo`}
+                  alt={`${item.name} - Trusted Partner`}
+                  title={`${item.name} - Partner Client`}
+                  loading="lazy"
+                  width={150}
+                  height={80}
                   className="w-full h-30 object-contain grayscale group-hover:grayscale-0 transition duration-300"
                 />
                 <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/5 blur-xl transition-colors duration-500 pointer-events-none rounded-xl" />
@@ -68,7 +72,11 @@ const Clients = () => {
               >
                 <img
                   src={item.logo}
-                  alt={`${item.name} logo`}
+                  alt={`${item.name} - Trusted Partner`}
+                  title={`${item.name} - Partner Client`}
+                  loading="lazy"
+                  width={150}
+                  height={80}
                   className="w-full h-30 object-contain grayscale group-hover:grayscale-0 transition duration-300"
                 />
                 <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/5 blur-xl transition-colors duration-500 pointer-events-none rounded-xl" />

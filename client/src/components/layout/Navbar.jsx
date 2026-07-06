@@ -42,16 +42,19 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="sticky top-0 z-50 w-full backdrop-blur-md bg-white/90 dark:bg-[#060C1A]/90 border-b border-gray-200 dark:border-gray-800 shadow-sm transition-colors duration-300">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <header className="sticky top-0 z-50 w-full backdrop-blur-md bg-white/90 dark:bg-[#060C1A]/90 border-b border-gray-200 dark:border-gray-800 shadow-sm transition-colors duration-300">
+      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
         <div className="flex justify-between items-center h-20">
           
           {/* Left Side: Logo */}
           <div className="flex items-center gap-3">
-            <a href="#home">
+            <a href="#home" aria-label="Sunny Verma Fiberglass Home">
               <img 
                 src="/logo.png" 
-                alt="Sunny Verma Fiber Glass Logo" 
+                alt="Sunny Verma Fiberglass Logo" 
+                title="Sunny Verma Fiberglass"
+                width={100}
+                height={100}
                 className="w-25 h-25 object-contain cursor-pointer"
                 onError={(e) => { e.target.style.display = 'none'; }} 
               />
@@ -86,18 +89,21 @@ const Navbar = () => {
              <button 
               onClick={toggleTheme}
               className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 transition"
+              aria-label="Toggle Dark Mode"
             >
               {isDark ? <Sun className="w-4 h-4 text-accent" /> : <Moon className="w-4 h-4 text-gray-600" />}
             </button>
             <button 
               className="text-gray-800 dark:text-gray-200"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
+              aria-expanded={isMobileMenuOpen}
             >
               {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
           </div>
         </div>
-      </div>
+      </nav>
 
       {/* Mobile Menu Dropdown */}
       {isMobileMenuOpen && (
@@ -114,7 +120,7 @@ const Navbar = () => {
           ))}
         </div>
       )}
-    </nav>
+    </header>
   );
 };
 

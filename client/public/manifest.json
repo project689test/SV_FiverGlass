@@ -1,0 +1,29 @@
+{
+  "short_name": "SV Fiberglass",
+  "name": "Sunny Verma Fiberglass FRP Manufacturer",
+  "description": "Premium customized Fiberglass (FRP) products manufacturer in India, specializing in industrial chemical tanks, water slides, planters, canopies, domes, and custom molds.",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#060C1A",
+  "background_color": "#060C1A",
+  "orientation": "portrait"
+}
