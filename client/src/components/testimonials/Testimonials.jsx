@@ -59,7 +59,6 @@ const Testimonials = () => {
             What Clients Say
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold uppercase mt-1">
-            <span className="text-secondary">Client </span>
             <span className="text-secondary">Testimonials</span>
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-primary mx-auto mt-6 rounded-full opacity-80"></div>

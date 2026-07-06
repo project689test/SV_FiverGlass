@@ -22,16 +22,16 @@ const About = () => {
             viewport={{ once: true }}
             className="flex flex-col"
           >
-            <h2 className="text-4xl md:text-5xl font-extrabold uppercase mb-6 tracking-widest text-gray-900 dark:text-white">
-              <span className="text-primary">Who </span>
-              <span className="text-secondary">We Are</span>
+            <h2 className="text-4xl md:text-5xl font-extrabold uppercase mb-6 tracking-wide text-gray-900 dark:text-white">
+              <span className="text-primary">About </span>
+              <span className="text-secondary">Sunny Verma Fiberglass</span>
             </h2>
 
             <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed mb-8">
               Based in Noida, Delhi NCR, Sunny Verma Fiberglass (FRP) Products Manufacturer has established itself as an industry leader with over 20 years of experience. We specialize in custom fiberglass products and high-quality Fiberglass Reinforced Plastic (FRP) fabrication services across Punjab, Haryana, Delhi, Chandigarh, and all of India.
             </p>
 
-            <ul className="space-y-4 mb-10">
+            <ul className="space-y-4 mb-8">
               {checkList.map((item, index) => (
                 <li key={index} className="flex items-center">
                   <span className="flex-shrink-0 w-7 h-7 rounded-md bg-[#00A1FF] flex items-center justify-center mr-4">
@@ -44,12 +44,21 @@ const About = () => {
               ))}
             </ul>
 
-            {/* Mission Box */}
-            <div className="relative bg-gradient-to-r from-orange-50 to-orange-50/20 dark:from-gray-800 dark:to-gray-900 rounded-r-xl border-l-[6px] border-orange-500 p-6 md:p-8 flex flex-col mt-2">
-              <h3 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-3">Our Mission</h3>
-              <p className="text-gray-600 dark:text-gray-300 text-[16px] leading-relaxed">
-                To continuously deliver robust, innovative, and cost-effective fiber solutions that exceed client expectations, ensuring durability and safety in every mold.
-              </p>
+            {/* Mission & Manufacturing Process Boxes */}
+            <div className="flex flex-col gap-4 mt-2">
+              <div className="relative bg-gradient-to-r from-orange-50 to-orange-50/20 dark:from-gray-800 dark:to-gray-900 rounded-r-xl border-l-[6px] border-orange-500 p-6 md:p-8 flex flex-col">
+                <h3 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-3">Our Mission</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-[16px] leading-relaxed">
+                  To continuously deliver robust, innovative, and cost-effective fiber solutions that exceed client expectations, ensuring durability and safety in every mold.
+                </p>
+              </div>
+
+              <div className="relative bg-gradient-to-r from-blue-50 to-blue-50/20 dark:from-gray-800 dark:to-gray-900 rounded-r-xl border-l-[6px] border-blue-500 p-6 md:p-8 flex flex-col">
+                <h3 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-3">Manufacturing Process</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-[16px] leading-relaxed">
+                  Our advanced engineering process begins with custom mold tooling, followed by precise chemical resin formulation, multi-layer glass fiber hand lay-up (FRP lamination), and controlled thermal curing to guarantee lifetime durability.
+                </p>
+              </div>
             </div>
 
           </motion.div>
@@ -69,7 +78,7 @@ const About = () => {
               loop
               playsInline */}
             <img
-              src="/about.jpg"
+              src="/about-sunny-verma-fiberglass.jpg"
               alt="About Sunny Verma Fiberglass - Premium FRP Manufacturer in India"
               title="Sunny Verma Fiberglass Manufacturing Facility"
               loading="lazy"

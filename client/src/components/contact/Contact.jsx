@@ -49,8 +49,8 @@ const Contact = () => {
             className="flex flex-col justify-start pt-4 lg:pt-8"
           >
             <h2 className="text-3xl lg:text-4xl font-extrabold mb-5 uppercase">
-              <span className="text-primary">Let's Build </span>
-              <span className="text-secondary">Together</span>
+              <span className="text-primary">Contact </span>
+              <span className="text-secondary">Us</span>
             </h2>
             <p className="text-gray-600 dark:text-gray-300 text-base leading-relaxed mb-10 lg:pr-10">
               Have a project in mind or need custom FRP solutions? Reach out to us today. We are here to help you build strong, reliable, and trusted fiberglass products.

@@ -59,7 +59,7 @@ const WhyChooseUs = () => {
 
             <motion.h2 variants={itemVariants} className="text-3xl md:text-4xl lg:text-5xl font-extrabold uppercase mb-6">
               <span className="text-secondary">Why </span>
-              <span className="text-secondary">Choose Us?</span>
+              <span className="text-secondary">Choose Us</span>
             </motion.h2>
 
             <motion.p variants={itemVariants} className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed mb-10 max-w-2xl">
@@ -111,8 +111,8 @@ const WhyChooseUs = () => {
               </div>
 
               <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900 dark:text-white uppercase tracking-wide mb-4">
-                100% Quality<br />
-                <span className="text-secondary">Guaranteed</span>
+                Quality<br />
+                <span className="text-secondary">Assurance</span>
               </h3>
 
               <p className="text-gray-600 dark:text-gray-300 font-medium mb-8">

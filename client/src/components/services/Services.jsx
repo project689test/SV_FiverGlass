@@ -89,35 +89,35 @@ const Services = () => {
       type: "service",
       title: "Industrial FRP Tank Manufacturer & Lamination",
       desc: "Protect industrial tanks from chemical leaks, corrosion, and wear with premium chemical-resistant lamination and fiberglass fabrication.",
-      image: "/tank.webp",
+      image: "/industrial-frp-tank-lamination.webp",
       icon: Factory
     },
     {
       type: "service",
       title: "Custom Automobile FRP Parts",
       desc: "High-strength, lightweight fiberglass bumpers, panels, and custom vehicle body parts manufactured for commercial and private transport.",
-      image: "/auto.jpg",
+      image: "/custom-automobile-frp-parts.jpg",
       icon: Car
     },
     {
       type: "service",
       title: "Fiberglass Water Park Slides",
       desc: "Highly durable, colorfast, and weather-resistant custom fiberglass slides designed for amusement and theme parks.",
-      image: "/slides.webp",
+      image: "/fiberglass-water-park-slides.webp",
       icon: Waves
     },
     {
       type: "service",
       title: "Decorative Fiberglass Sculptures",
       desc: "Creative, weather-resistant, and structural fiberglass models and decorative sculptures engineered for museums and theme parks.",
-      image: "/Sculpture.jpg",
+      image: "/decorative-fiberglass-sculpture.jpg",
       icon: Sparkles
     },
     {
       type: "service",
       title: "FRP Sheets & Roofing Solutions",
       desc: "UV-protected, high-durability roofing sheets and structural canopies designed to withstand extreme Indian weather elements.",
-      image: "/sheets.webp",
+      image: "/industrial-frp-roofing-sheets.webp",
       icon: Layers
     },
     // Products (Remaining 4 items)
@@ -125,28 +125,28 @@ const Services = () => {
       type: "service",
       title: "Custom FRP Canopies & Domes",
       desc: "Beautifully styled, weather-resistant entrance canopies and architectural domes fabricated to fit residential and commercial spaces.",
-      image: "/molds.jpg",
+      image: "/custom-frp-molds-canopies.jpg",
       icon: Umbrella
     },
     {
       type: "service",
       title: "FRP Public Benches & Domes",
       desc: "Maintenance-free, rust-resistant, and heavy-duty fiberglass park benches and trash bins for corporate and public settings.",
-      image: "/banches.jpg",
+      image: "/frp-park-benches-dustbins.jpg",
       icon: TreePine
     },
     {
       type: "service",
       title: "Decorative Fiberglass Planters",
       desc: "Premium, lightweight, and corrosion-free fiberglass planters and pots designed for high-end interior landscaping and gardens.",
-      image: "/planters.jpg",
+      image: "/decorative-fiberglass-planters.jpg",
       icon: Flower2
     },
     {
       type: "service",
       title: "Industrial FRP Gratings",
       desc: "Slip-resistant, chemical-proof, and high-load capacity fiberglass floor gratings and walkway covers designed for safety.",
-      image: "/gratings.jpg",
+      image: "/industrial-frp-gratings.jpg",
       icon: Grid
     }
   ];
@@ -170,9 +170,14 @@ const Services = () => {
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold uppercase mt-1">
             <span className="text-secondary">Our </span>
-            <span className="text-secondary">Services & Products</span>
+            <span className="text-secondary">Products</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-primary to-primary mx-auto mt-6 rounded-full opacity-80"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-primary to-primary mx-auto mt-6 rounded-full opacity-80 mb-6"></div>
+          
+          <h3 className="text-xl font-bold uppercase text-primary tracking-wider mb-2">Industries We Serve</h3>
+          <p className="text-gray-600 dark:text-gray-400 max-w-3xl mx-auto text-[16px] leading-relaxed">
+            We fabricate custom FRP components and solutions for chemical processing plants, automobile transit industries, municipal infrastructure utilities, amusement water parks, wastewater facilities, and architectural interior/exterior landscaping across North India.
+          </p>
         </motion.div>
 
         {/* Dynamic Grid mapping */}

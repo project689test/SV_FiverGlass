@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="
       relative w-full min-h-screen flex items-center overflow-hidden
-      bg-[url('/Hero_Section.jpeg')] bg-cover bg-center bg-no-repeat
+      bg-[url('/sunny-verma-fiberglass-hero.jpeg')] bg-cover bg-center bg-no-repeat
     ">
 
       {/* Dark Overlay for readability in both light/dark modes */}
@@ -52,8 +52,8 @@ const Hero = () => {
             }}
             className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-extrabold leading-tight mb-6 uppercase"
           >
-            <span className="text-white block mb-2">Strong, Reliable &</span>
-            <span className="bg-gradient-to-r from-secondary to-secondary bg-clip-text text-transparent pb-2">FRP Products Manufacturer</span>
+            <span className="text-white block mb-2">Leading FRP &</span>
+            <span className="bg-gradient-to-r from-secondary to-secondary bg-clip-text text-transparent pb-2">Fiberglass Products Manufacturer in India</span>
           </motion.h1>
 
           {/* Description */}
