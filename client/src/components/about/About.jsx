@@ -71,7 +71,7 @@ const About = () => {
             <img
               src="/about.jpg"
               alt="About Sunny Verma Fiber Glass"
-              className="absolute w-full h-full object-fill object-center transform group-hover:scale-105 transition duration-500"
+              className="absolute w-full h-full object-cover object-top transform group-hover:scale-105 transition duration-500"
             />
 
             {/* Overlay Gradient for depth mapping */}
