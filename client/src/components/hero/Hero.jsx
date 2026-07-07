@@ -52,8 +52,8 @@ const Hero = () => {
             }}
             className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-extrabold leading-tight mb-6 uppercase"
           >
-            <span className="text-white block mb-2">Leading FRP &</span>
-            <span className="bg-gradient-to-r from-secondary to-secondary bg-clip-text text-transparent pb-2">Fiberglass Products Manufacturer in India</span>
+            <span className="text-white block mb-2">Strong, Reliable &</span>
+            <span className="bg-gradient-to-r from-secondary to-secondary bg-clip-text text-transparent pb-2">Trusted FRP Solutions</span>
           </motion.h1>
 
           {/* Description */}

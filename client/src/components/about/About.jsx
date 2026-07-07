@@ -23,8 +23,8 @@ const About = () => {
             className="flex flex-col"
           >
             <h2 className="text-4xl md:text-5xl font-extrabold uppercase mb-6 tracking-wide text-gray-900 dark:text-white">
-              <span className="text-primary">About </span>
-              <span className="text-secondary">Sunny Verma Fiberglass</span>
+              <span className="text-primary">We </span>
+              <span className="text-secondary">Who</span>
             </h2>
 
             <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed mb-8">
