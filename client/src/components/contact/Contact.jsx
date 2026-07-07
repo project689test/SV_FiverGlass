@@ -12,13 +12,25 @@ const Contact = () => {
     setIsSubmitting(true);
     setStatusMessage(null);
 
-    // Simulated API call since EmailJS keys are placeholder
-    // Replace this block with your actual emailjs.sendForm call once you have your keys
-    new Promise((resolve) => setTimeout(resolve, 1500))
-      .then(() => {
-        setStatusType('success');
-        setStatusMessage("Message Sent Successfully! We will get back to you soon.");
-        e.target.reset();
+    const formData = new FormData(e.target);
+    const data = Object.fromEntries(formData.entries());
+
+    fetch("https://formsubmit.co/ajax/info@vermafibers.com", {
+      method: "POST",
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify(data)
+    })
+      .then((response) => {
+        if (response.ok) {
+          setStatusType('success');
+          setStatusMessage("Message Sent Successfully! We will get back to you soon.");
+          e.target.reset();
+        } else {
+          throw new Error('Failed to send message');
+        }
       })
       .catch(() => {
         setStatusType('error');
@@ -134,11 +146,10 @@ const Contact = () => {
               </div>
             )}
 
-            <form action="https://formsubmit.co/info@vermafibers.com" method="POST" className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-6">
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_subject" value="New Contact Message" />
               <input type="hidden" name="_template" value="table" />
-              <input type="hidden" name="_next" value="https://www.vermafibers.com/" />  {/* ← ADD THIS */}
               <input type="text" name="_honey" style={{ display: "none" }} />
               {/* ...rest of your form */}
 
