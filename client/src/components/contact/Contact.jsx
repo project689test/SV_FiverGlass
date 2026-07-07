@@ -138,7 +138,7 @@ const Contact = () => {
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_subject" value="New Contact Message" />
               <input type="hidden" name="_template" value="table" />
-              <input type="hidden" name="_next" value="https://sv-fiver-glass.vercel.app/" />  {/* ← ADD THIS */}
+              <input type="hidden" name="_next" value="https://www.vermafibers.com/" />  {/* ← ADD THIS */}
               <input type="text" name="_honey" style={{ display: "none" }} />
               {/* ...rest of your form */}
 
