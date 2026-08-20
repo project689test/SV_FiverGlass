@@ -87,7 +87,7 @@ const Contact = () => {
                   </p>
                   <h3 className="text-[17px] font-bold text-gray-900 dark:text-white mt-2 mb-1">Registered Address</h3>
                   <p className="text-gray-600 dark:text-gray-400 text-[15px] leading-relaxed">
-                    RC 188 Block -C, Azad Vihar, Khora Colony, Uttar Pradesh 201020
+                    RC 188 Block -C, Azad Vihar, Khora Colony, Uttar Pradesh 201309
                   </p>
                 </div>
               </motion.div>
@@ -105,7 +105,7 @@ const Contact = () => {
                 <div>
                   <h3 className="text-[17px] font-bold text-gray-900 dark:text-white mb-2">Phone Number</h3>
                   <p className="text-gray-600 dark:text-gray-400 text-[15px] leading-relaxed">
-                    +91 9899587246
+                    +91 9871231930
                   </p>
                 </div>
               </motion.div>
